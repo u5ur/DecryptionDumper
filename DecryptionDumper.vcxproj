@@ -19,17 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Debugger.cpp" />
-    <ClCompile Include="Source\Disassembler.cpp" />
+    <ClCompile Include="Source\Dumper.cpp" />
     <ClCompile Include="Source\Main.cpp" />
-    <ClCompile Include="Source\Dump.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Common.h" />
-    <ClInclude Include="Source\Config.h" />
-    <ClInclude Include="Source\Debugger.h" />
-    <ClInclude Include="Source\Disassembler.h" />
-    <ClInclude Include="Source\Dump.h" />
+    <ClInclude Include="Source\Dumper.h" />
     <ClInclude Include="ThirdParty\Includes\unicorn\arm.h" />
     <ClInclude Include="ThirdParty\Includes\unicorn\arm64.h" />
     <ClInclude Include="ThirdParty\Includes\unicorn\m68k.h" />
